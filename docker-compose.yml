@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: .docker
+      dockerfile: Dockerfile
+      args:
+        USER_ID: ${USER_ID}
+        GROUP_ID: ${GROUP_ID}
+    container_name: mtm-app
+    ports:
+      - ${APP_PORT}:4200
+    volumes:
+      - ${APP_SOURCE}:/app
+
+networks:
+  default:
+    name: mtm_net
