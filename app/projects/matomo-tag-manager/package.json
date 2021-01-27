@@ -1,6 +1,11 @@
 {
-  "name": "matomo-tag-manager",
-  "version": "1.0.0",
+  "name": "angular-matomo-tag-manager",
+  "version": "1.0.1",
+  "author": "Franck Battu",
+  "homepage": "https://github.com/franckbattu/angular-matomo-tag-manager/tree/master/app",
+  "bugs": {
+    "url": "https://github.com/franckbattu/angular-matomo-tag-manager/issues"
+  },
   "peerDependencies": {
     "@angular/common": "^11.0.4",
     "@angular/core": "^11.0.4"
